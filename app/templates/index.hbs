@@ -2,12 +2,8 @@
 
 <ul>
   {{#each model as |rental|}}
-    {{rental-title rental=rental destroyRental="destroyRental"}}
+    {{rental-title rental=rental update="update" destroyRental="destroyRental"}}
   {{/each}}
 </ul>
 
 {{new-rental save2="save3"}}
-
-{{#link-to 'announcements'}}Special Announcements{{/link-to}}
-{{#link-to 'about'}}About{{/link-to}}
-{{#link-to 'contact'}}Contact{{/link-to}}
