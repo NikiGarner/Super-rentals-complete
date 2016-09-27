@@ -1,7 +1,6 @@
 # Super-rentals
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This project was during the JavaScript course and Epicodus. The purpose what further developing the previous rental app and used helpers and services.
 
 ## Prerequisites
 
